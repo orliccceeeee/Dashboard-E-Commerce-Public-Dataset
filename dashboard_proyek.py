@@ -29,7 +29,7 @@ def create_bystate_df(df):
     return bystate_df
 
 
-all_df = pd.read_csv("https://raw.githubusercontent.com/orliccceeeee/dashboard-proyek-akhir/main/all_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/orliccceeeee/Dashboard-E-Commerce-Public-Dataset/main/all_data.csv")
 
 
 datetime_columns = ["order_purchase_timestamp", "order_estimated_delivery_date"]
